@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: Matt Lim
-title: Computer Science Student
+title:
 email: milttam1@gmail.com
 website: https://milttam.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 twitter_username:
@@ -49,43 +49,48 @@ additional_links:
 about_profile_image: images/Lim_Matt_Headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Matt and I'm a CS student @CornellUniversity. \
-  I am a highly motivated individual interested in software engineering and API design\
+  I am a highly motivated individual interested in software engineering and API design
 
   I am most skilled in: <mark>Full-Stack Dev</mark> and <mark>Data Science</mark>
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title: sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-left
+        title: Multi-user Social Media App
+        link: https://github.com/Milttam/sns-application
+        description: | # this will include new lines to allow paragraphs
+          - A multi-user social media application built using the <mark>MERN stack</mark> 
+          - Developed a RESTful API using Node.js and Express.js, and used OAuth 2.0 
+          - Utilized React and Redux to create a multi-component responsive front-end
+      - layout: top-left
+        title: Verses-API
+        link: https://github.com/Milttam/verses-api
+        description: | # this will include new lines to allow paragraphs
+          - An API that enables users to query for Bible verses and passages
+          - Leveraged <mark>MySQL</mark> to store and retrieve data, and Express.js for routing 
+          - Secured using <mark>API Keys</mark>, rate limiting, and snyk.io for vulnerability scanning
+      - layout: top-left
+        title: Encrypted Email System
+        link: private repository
+        description: | # this will include new lines to allow paragraphs
+          - Designed and developed an email system encrypted with Diffie-Hellman Key Exchange and a block cipher inspired by the Advanced Encryption Standard (AES)/Rijndael specifications
+          - 2000 LoC implemented entirely from scratch in <mark>OCaml</mark>
 
-  # - title: Experience # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: The Boring Company
-  #       link: boringcompany.com
-  #       # link_text: boringcompany.com
-  #       sub_title: Senior Network System Administrator
-  #       caption: November 2017 - Present
-  #       quote: >
-  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #         Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Availity/Cornell University
+        link: https://github.com/address-matching
+        # link_text: boringcompany.com
+        sub_title: Data Science Fellow
+        caption: Jan 2023 - Dec 2023
+        description: | # this will include new lines to allow paragraphs
+          - Collaborated with Availity, a healthcare IT company, and Cornell Operations Research faculty to design a data science solution to verify information in medical provider directories
+          - Significantly enhanced the data-driven decision-making process in Availity's smart alert email system to request for more accurate information from over 2 million providers
+          - Implemented, trained, and tuned models using synthetically generated datasets, and optimized accuracy scores using <mark>Python</mark> and <mark>TensorFlow</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -93,7 +98,7 @@ content:
       - layout: left
         title: Cornell University
         caption: 2022-2025 (Expected)
-        sub_title: B.S. in Computer Science\ Minor in Operations Research
+        sub_title: B.S. in Computer Science & Minor in Operations Research
         # quote: >
         #   quote.
         description: | # this will include new lines to allow paragraphs
@@ -107,7 +112,7 @@ content:
           ECON 3130: Probability and Statistics\
           CS 3110: Functional Programming\
           (DIS Stockholm) App Development\
-          (DIS Stoclholm) Data Visualization\
+          (DIS Stoclholm) Data Visualization
 
   - title: A Little More About Me
     layout: text
