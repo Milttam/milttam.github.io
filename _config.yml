@@ -73,7 +73,7 @@ content:
           - Secured using <mark>API Keys</mark>, rate limiting, and snyk.io for vulnerability scanning
       - layout: top-left
         title: Encrypted Email System
-        link: private repository
+        link: https://github.com/Milttam/email-system
         description: | # this will include new lines to allow paragraphs
           - Designed and developed an email system encrypted with Diffie-Hellman Key Exchange and a block cipher inspired by the Advanced Encryption Standard (AES)/Rijndael specifications
           - 2000 LoC implemented entirely from scratch in <mark>OCaml</mark>
